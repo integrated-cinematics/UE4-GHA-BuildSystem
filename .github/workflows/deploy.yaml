@@ -54,7 +54,7 @@ jobs:
           submodules: 'recursive'
 
       - name: "Setup gcloud"
-        uses: google-github-actions/setup-gcloud@master
+        uses: google-github-actions/setup-gcloud@v0.6.0
         with:
           service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_CREDENTIALS }}
           export_default_credentials: true
