@@ -32,7 +32,7 @@ game_storage_bucket_name = "unreal-game-longtail"
 game_builder_boot_disk_type  = "pd-balanced"
 game_builder_boot_disk_size = "100"
 game_builder_github_scope   = "integrated-cinematics/UE4-GHA-Game"
-game_builder_machine_type   = "n1-standard-32"
+game_builder_machine_type   = "n1-standard-16"
 game_builder_instance_name  = "game-build-agent"
 game_builder_runner_name    = "game_build_agent"
 
