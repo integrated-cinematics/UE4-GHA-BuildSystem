@@ -7,7 +7,7 @@ engine_storage_bucket_name = "unreal-engine-longtail"
 # engine_builders
 
 engine_builder_boot_disk_type  = "pd-balanced"
-engine_builder_boot_disk_size = "450"
+engine_builder_boot_disk_size = "400"
 engine_builder_github_scope   = "integrated-cinematics/UE4-GHA-Engine"
 engine_builder_machine_type   = "n1-standard-32"
 engine_builder_instance_name  = "engine-build-agent"
